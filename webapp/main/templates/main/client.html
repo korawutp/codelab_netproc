@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<form class="container">
+    <h2>โปรดส่งใครมาช่วยฉันที</h2>
+    <p style="color:blue;">ส่งเรื่องราวของคุณมา แล้วเราจะติดต่อกลับไป</p>
+    <input type="text" id="txtMessage" name="msg" size = "50" value="ข้อความที่จะฝากไว้ให้เทอ"><br>
+    <input type="text" id="txtName" name="name" size = "50" value="บอกชื่อเทอกับฉัน"><br><br>
+    <input type = "button" id = "btnSendMsg" value = "ส่ง" style="color:white; background-color:rgb(0, 183, 255);">
+</form>
+{% endblock %}
